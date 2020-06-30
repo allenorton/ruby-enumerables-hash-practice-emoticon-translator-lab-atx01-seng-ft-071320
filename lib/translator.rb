@@ -25,6 +25,6 @@ def get_english_meaning(yaml_file, emoticons)
   eng_meaning = ""
   apology = "Sorry, that emoticon was not found"
   library = load_library(yaml_file)
-  library
+  library.each do |
   binding.pry 
 end
