@@ -13,7 +13,6 @@ def load_library(lib)
     english = vray[0]
     japanese = vray[1]
   end
-  library
   binding.pry
 end
 
