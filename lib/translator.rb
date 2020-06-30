@@ -6,7 +6,7 @@ def load_library(lib)
   loadlib =YAML.load_file(lib)
   library = {'get_meaning'  => {},
                   'get_emoticon' => {} }
-  loadlib.each do |key, vray|
+  loadlib.each do |meaning, emoticon|
     english = vray[0]
     japanese = vray[1]
   end
