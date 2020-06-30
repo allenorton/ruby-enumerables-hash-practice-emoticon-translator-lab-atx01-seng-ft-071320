@@ -10,9 +10,11 @@ def load_library(lib)
     
   }
   loadlib.each do |meaning, vray|
-    m = meaning 
-    english = vray[0]
-    japanese = vray[1]
+    library["get_emoticon"][vray.first] = vray.last
+    library["get_meaning"][vray.last] = meaning
+  end
+  p library
+  library 
   end
   binding.pry
 end
