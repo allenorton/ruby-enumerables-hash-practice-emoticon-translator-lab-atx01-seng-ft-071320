@@ -2,8 +2,8 @@ require "yaml"
 require "pry"
 
 
-def load_library(lib)
-  loadlib =YAML.load_file(lib)
+def load_library(yaml_file)
+  loadlib =YAML.load_file(yaml_file)
   get_meaning  = {}
   
   loadlib.each do |meaning, vray|
