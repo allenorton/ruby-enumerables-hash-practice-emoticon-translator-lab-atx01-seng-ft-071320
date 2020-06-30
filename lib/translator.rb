@@ -10,7 +10,7 @@ def load_library(lib)
   loadlib.each do |meaning, vray|
     english = vray.first 
     japanese = vray.last 
-    get_meaning[meaning.to_sym] = vray
+    get_meaning[meaning.to_sym] = english, japanese
     #get_emoticon[vray[0].to_sym] = vray[1]
   end
   result = {}
