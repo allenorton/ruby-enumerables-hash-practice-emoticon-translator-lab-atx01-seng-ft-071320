@@ -31,5 +31,5 @@ def get_english_meaning(yaml_file, j_emoticons)
     end 
   end
   english_meaning
-  binding.pry 
+  #binding.pry 
 end
