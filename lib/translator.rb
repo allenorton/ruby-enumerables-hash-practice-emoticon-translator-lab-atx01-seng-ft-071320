@@ -13,7 +13,7 @@ def load_library(lib)
   end
   result = {}
   result[0] = get_meaning
-  result["get_emoticon".to_sym] = get_emoticon
+  result[1] = get_emoticon
   result
   binding.pry
 end
