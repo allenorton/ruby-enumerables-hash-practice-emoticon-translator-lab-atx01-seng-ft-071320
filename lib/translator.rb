@@ -10,8 +10,8 @@ def load_library(lib)
     
   }
   loadlib.each do |meaning, vray|
-    library["get_emoticon"][vray.first] = vray.last
     library["get_meaning"][vray.last] = meaning
+    library["get_emoticon"][vray.first] = vray.last
   end
   library 
   #binding.pry
