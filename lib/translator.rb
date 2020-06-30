@@ -23,6 +23,6 @@ end
 
 def get_english_meaning(yaml_file, emoticons)
   library = load_library(yaml_file)
-  library.each do |meaning,
+  library.each do |meaning, emos|
   binding.pry 
 end
