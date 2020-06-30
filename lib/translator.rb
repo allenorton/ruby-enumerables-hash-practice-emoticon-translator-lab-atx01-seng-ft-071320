@@ -12,7 +12,7 @@ def load_library(yaml_file)
     japanese_emoticon = vray[1]
     get_meaning[meaning] = {english: english_emoticon, japanese: japanese_emoticon}
   end
-  result = {"get meaning" => get_meaning, "get_emoticon" => get_emoticon
+  result = {"get meaning" => get_meaning, "get_emoticon" => get_emoticon}
   result
   #binding.pry
 end
