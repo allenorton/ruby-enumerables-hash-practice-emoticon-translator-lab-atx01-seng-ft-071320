@@ -3,7 +3,7 @@ require "pry"
 
 
 def load_library(lib)
-  yaml.load_file(lib)
+  x = yaml.load_file(lib)
 
   binding.pry
 end
