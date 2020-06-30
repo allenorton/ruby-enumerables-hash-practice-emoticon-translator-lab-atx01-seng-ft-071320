@@ -4,14 +4,14 @@ require "pry"
 
 def load_library(yaml_file)
   loadlib =YAML.load_file(yaml_file)
-  get_meaning  = {}
+  "get_meaning"  = {}
   
   loadlib.each do |meaning, vray|
     english_emoticon = vray[0] 
     japanese_emoticon = vray[1]
-    get_meaning[meaning] = {english: english_emoticon, japanese: japanese_emoticon}
+    "get_meaning"[meaning] = {english: english_emoticon, japanese: japanese_emoticon}
   end
-  get_meaning
+  result = "get_meaning"
   #binding.pry
 end
 
