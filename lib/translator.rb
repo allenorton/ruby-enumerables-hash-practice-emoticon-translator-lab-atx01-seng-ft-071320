@@ -13,7 +13,7 @@ def load_library(lib)
     get_meaning[meaning.to_sym] = {english: english_emoticon, japanese: japanese_emoticon}
     #get_emoticon[vray[0].to_sym] = vray[1]
   end
-  get_meaning
+  result = get_meaning
   #binding.pry
 end
 
