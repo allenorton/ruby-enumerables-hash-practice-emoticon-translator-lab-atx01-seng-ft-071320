@@ -21,5 +21,5 @@ end
 
 def get_english_meaning(yaml_file, emoticon)
   result = load_library(yaml_file)
-  binding.pry 
+  #binding.pry 
 end
