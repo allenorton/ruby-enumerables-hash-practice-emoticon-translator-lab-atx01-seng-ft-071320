@@ -15,7 +15,7 @@ def load_library(lib)
   result["definition".to_sym] = get_meaning
   result["get_emoticon".to_sym] = get_emoticon
   result
-  binding.pry
+  #binding.pry
 end
 
 def get_japanese_emoticon
