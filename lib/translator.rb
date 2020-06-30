@@ -4,8 +4,8 @@ require "pry"
 
 def load_library(lib)
   loadlib =YAML.load_file(lib)
-  library =
-  loadlib.each_with_object({}) do |(key, vray), library|
+  library = {}
+  loadlib.each do |(key, vray)
     p key
   end
   binding.pry
