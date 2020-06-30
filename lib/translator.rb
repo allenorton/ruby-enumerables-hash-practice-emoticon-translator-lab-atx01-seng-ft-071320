@@ -16,7 +16,7 @@ def load_library(lib)
   result = {}
   result = get_meaning
   result
-  binding.pry
+  #binding.pry
 end
 
 def get_japanese_emoticon
