@@ -28,7 +28,7 @@ def get_japanese_emoticon(yaml_file, eng_emoti)
     end
   end 
   j_emoti
-  binding.pry
+  #binding.pry
 end
 
 def get_english_meaning(yaml_file, j_emoticons)
