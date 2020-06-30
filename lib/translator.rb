@@ -15,7 +15,6 @@ def load_library(lib)
   end
   p library
   library 
-  end
   binding.pry
 end
 
