@@ -8,8 +8,8 @@ def load_library(lib)
   'get_emoticon' => {} 
   
   loadlib.each do |meaning, vray|
-    library["get_meaning"][meaning.to_sym] = vray
-    library["get_emoticon"][vray[0]] = vray[1]
+    "get_meaning"[meaning.to_sym] = vray
+    "get_emoticon"[vray[0]] = vray[1]
   end
   #binding.pry
 end
