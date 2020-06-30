@@ -11,7 +11,7 @@ def load_library(yaml_file)
     english_emoticon = vray[0] 
     japanese_emoticon = vray[1]
     get_meaning[meaning] = {english: english_emoticon, japanese: japanese_emoticon}
-    get_emoticon
+    get_emoticon[vray[0]] = vray[1]
   end
   get_meaning
   #binding.pry
