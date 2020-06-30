@@ -27,7 +27,7 @@ def get_japanese_emoticon(yaml_file, eng_emoti)
       end 
     end
   end 
-  if j_emoti = ""
+  if j_emoti = nil
     j_emoti = "Sorry, that emoticon was not found"
   end 
   j_emoti
