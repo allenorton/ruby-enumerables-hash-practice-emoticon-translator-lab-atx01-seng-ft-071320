@@ -31,7 +31,7 @@ def get_english_meaning(yaml_file, j_emoticons)
         english_meaning = meaning
         break
       elsif emoti != j_emoticons
-        #english_meaning = sorry
+        english_meaning = sorry
       end 
       
       #emoti == j_emoticons ? english_meaning = meaning : english_meaning = sorry
