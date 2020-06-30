@@ -11,7 +11,7 @@ def load_library(lib)
     get_meaning[meaning.to_sym] = vray
     get_emoticon[vray[0]] = vray[1]
   end
-  binding.pry
+  #binding.pry
 end
 
 def get_japanese_emoticon
