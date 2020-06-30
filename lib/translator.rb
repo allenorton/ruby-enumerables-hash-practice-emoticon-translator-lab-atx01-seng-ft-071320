@@ -5,8 +5,8 @@ require "pry"
 def load_library(yaml_file)
   loadlib =YAML.load_file(yaml_file)
   library = {
-    get_meaning  = {},
-    get_emoticon = {}
+    get_meaning  => {},
+    get_emoticon => {}
     
   }
   
