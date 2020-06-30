@@ -22,9 +22,7 @@ def get_japanese_emoticon
 end
 
 def get_english_meaning(yaml_file, emoticons)
-  eng_meaning = ""
-  apology = "Sorry, that emoticon was not found"
   library = load_library(yaml_file)
-  library.each do |
+  library.each do |meaning,
   binding.pry 
 end
