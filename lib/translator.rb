@@ -12,7 +12,7 @@ def load_library(lib)
     get_emoticon[vray[0]] = vray[1]
   end
   result = {}
-  result["definition".to_sym] = get_meaning
+  result[0] = get_meaning
   result["get_emoticon".to_sym] = get_emoticon
   result
   #binding.pry
