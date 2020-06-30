@@ -14,7 +14,7 @@ def load_library(yaml_file)
     get_emoticon[vray[0]] = vray[1]
   end
   get_meaning
-  #binding.pry
+  binding.pry
 end
 
 def get_japanese_emoticon
