@@ -27,10 +27,10 @@ def get_english_meaning(yaml_file, j_emoticons)
   library = load_library(yaml_file)
   library.each do |meaning, langs|
     langs.each do |in_key, emoti|
-      if emoti == j_emoticons
-        english_meaning = meaning
-      end
-      #emoti == j_emoticons ? english_meaning = meaning : english_meaning = sorry
+      #if emoti == j_emoticons
+       # english_meaning = meaning
+     # end
+      emoti == j_emoticons ? english_meaning = meaning : english_meaning = sorry
     end 
   end
   english_meaning
