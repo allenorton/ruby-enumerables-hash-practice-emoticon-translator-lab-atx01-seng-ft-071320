@@ -21,9 +21,9 @@ def get_japanese_emoticon
   # code goes here
 end
 
-def get_english_meaning(yaml_file, emoticon)
+def get_english_meaning(yaml_file, emoticons)
   eng_meaning = ""
-  apology = ""
+  apology = "Sorry, that emoticon was not found"
   library = load_library(yaml_file)
   library
   binding.pry 
