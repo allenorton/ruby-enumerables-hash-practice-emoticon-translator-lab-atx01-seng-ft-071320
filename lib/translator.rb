@@ -24,6 +24,8 @@ def get_japanese_emoticon(yaml_file, eng_emoti)
     langs.each do |in_key, emoti|
       if emoti == eng_emoti
         j_emoti = langs[:japanese]
+      else
+        j_emoti =""
       end 
     end
   end 
