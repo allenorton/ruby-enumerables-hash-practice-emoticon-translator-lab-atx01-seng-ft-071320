@@ -20,5 +20,5 @@ def get_japanese_emoticon
 end
 
 def get_english_meaning(yaml_file, emoticon)
-  # code goes here
+  loadlib = YAML.load_file(yaml_file)
 end
