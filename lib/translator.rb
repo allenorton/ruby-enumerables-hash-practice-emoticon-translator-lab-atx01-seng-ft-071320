@@ -18,7 +18,16 @@ def load_library(yaml_file)
 end
 
 def get_japanese_emoticon(yaml_file, eng_emoti)
+  j_emoti = ""
   library = load_library(yaml_file)
+  library.each do |meaning, langs|
+    langs.each do |in_key, emoti|
+      if emoti == eng_emoti
+        j_emoti = meaning
+      end 
+    end
+  end 
+  j_emoti
 end
 
 def get_english_meaning(yaml_file, j_emoticons)
