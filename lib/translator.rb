@@ -28,8 +28,6 @@ def get_english_meaning(yaml_file, j_emoticons)
   library.each do |meaning, langs|
     langs.each do |in_key, emoti|
       emoti == j_emoticons ? english_meaning = meaning : english_meaning = sorry
-      end 
-      
     end 
   end
   binding.pry 
