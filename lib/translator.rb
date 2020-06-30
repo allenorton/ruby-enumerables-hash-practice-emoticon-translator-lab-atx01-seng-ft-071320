@@ -12,6 +12,7 @@ def load_library(yaml_file)
     "get_meaning"[meaning] = {english: english_emoticon, japanese: japanese_emoticon}
   end
   result = "get_meaning"
+  result
   #binding.pry
 end
 
