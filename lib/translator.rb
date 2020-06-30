@@ -30,5 +30,6 @@ def get_english_meaning(yaml_file, j_emoticons)
       emoti == j_emoticons ? english_meaning = meaning : english_meaning = sorry
     end 
   end
+  english_meaning
   binding.pry 
 end
