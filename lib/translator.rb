@@ -5,8 +5,9 @@ require "pry"
 def load_library(lib)
   loadlib =YAML.load_file(lib)
   library = {}
-  loadlib.each do |(key, vray)
-    p key
+  loadlib.each do |(key, vray)|
+    english = vray[0]
+    japanese = vray[1]
   end
   binding.pry
 end
