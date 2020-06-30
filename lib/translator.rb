@@ -17,7 +17,7 @@ def load_library(yaml_file)
   #binding.pry
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(yaml_file, eng_emoti)
   # code goes here
 end
 
@@ -29,13 +29,7 @@ def get_english_meaning(yaml_file, j_emoticons)
     langs.each do |in_key, emoti|
       if emoti == j_emoticons
         english_meaning = meaning
-        #break
-      #elsif emoti != j_emoticons
-       # english_meaning = sorry
       end 
-      
-      #emoti == j_emoticons ? english_meaning = meaning : english_meaning = sorry
-      
     end
     if english_meaning == ""
       english_meaning = sorry
