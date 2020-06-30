@@ -10,7 +10,7 @@ def load_library(lib)
     
   }
   loadlib.each do |meaning, vray|
-    library["get_meaning"][meaning] = meaning.to_sym
+    library["get_meaning"][meaning.to_sym] = vray
     library["get_emoticon"][vray[0]] = vray[1]
   end
   library 
