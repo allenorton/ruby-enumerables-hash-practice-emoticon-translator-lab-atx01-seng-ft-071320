@@ -13,7 +13,6 @@ def load_library(lib)
     library["get_emoticon"][vray.first] = vray.last
     library["get_meaning"][vray.last] = meaning
   end
-  p library
   library 
   #binding.pry
 end
