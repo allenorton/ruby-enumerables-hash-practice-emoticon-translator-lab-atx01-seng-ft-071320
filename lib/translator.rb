@@ -3,7 +3,8 @@ require "pry"
 
 
 def load_library(lib)
-  n =YAML.load_file(lib)
+  loadlib =YAML.load_file(lib)
+  loadlib.each_with_object({}) do |(key, vray), library|
   binding.pry
 end
 
