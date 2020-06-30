@@ -29,7 +29,7 @@ def get_english_meaning(yaml_file, j_emoticons)
     langs.each do |in_key, emoti|
       if emoti == j_emoticons
         english_meaning = meaning
-      elsif emoti !== j_emoticons
+      elsif emoti != j_emoticons
         english_meaning = sorry
       end 
       
