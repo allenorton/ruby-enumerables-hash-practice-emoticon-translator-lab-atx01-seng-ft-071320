@@ -10,6 +10,7 @@ def load_library(lib)
     
   }
   loadlib.each do |meaning, vray|
+    m = meaning 
     english = vray[0]
     japanese = vray[1]
   end
